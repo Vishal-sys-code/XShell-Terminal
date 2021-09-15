@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSHELL</title>
+    <!--========================= FONTS ============================ -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap">
+    <!--=========================  CSS  ========================= -->
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- ========================= FAVICON =========================  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+
+            <div class="buttons-flex">
+                <div class="button green"></div>
+                <div class="button yellow"></div>
+                <div class="button red"></div>
+            </div>
+
+            <div class="title">
+                <a href=""><h1>guest@xshell-desktop:~</h1></a>
+            </div>
+        </div>
+
+        <div id="app"></div>
+
+        <!-- <div class="title">
+            <p>
+                &copy;
+                <script>
+                    document.write(newDate().getFullYear());
+                </script>
+                ~Vishal Pandey
+            </p>
+        </div> -->
+
+    </div>
+    <script src="scripts/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+    <script>
+        const options = {
+            bottom: '64px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '32px', // default: 'unset'
+            time: '0.5s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: '#fff',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: false, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+    </script>
+
+</body>
+</html>
+
