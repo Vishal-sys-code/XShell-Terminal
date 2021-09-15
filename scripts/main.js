@@ -97,7 +97,7 @@ async function getInputValue(){
         trueValue(value);
         // createText("GitHub Repository: <a href="www.github.com" target='_blank'>XShell</a>")
         {
-            window.location.href = "www.github.com";
+            window.location.href = "https://github.com/Vishal-sys-code/XShell-Terminal";
         };
     }
     else if(value === "xshell"){
