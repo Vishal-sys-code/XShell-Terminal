@@ -22,14 +22,14 @@ app.addEventListener("click",function(event){
 
 async function open_terminal(){
     createText("Welcome to XShell");
-    await delay(500);
+    await delay(300);
     createText("Instructions");
-    await delay(800);
+    await delay(700);
 
-    createCode ("help","For Help");
-    createCode ("about","Details of XShell");
+    // createCode ("help","For Help");
+    // createCode ("about","Details of XShell");
     createCode ("all","To see all the commands");
-    createCode ("clear","To clear the terminal");
+    // createCode ("clear","To clear the terminal");
 
     await delay(500);
     new_line();
@@ -51,7 +51,7 @@ function new_line(){
     const div = document.createElement("div");
     div.setAttribute("class","type")
     const i = document.createElement("i");
-    i.setAttribute("class","fas fa-angle-right icone")
+    i.setAttribute("class","fas fa-dollar-sign icone")
     const input = document.createElement("input");
     div.appendChild(i);
     div.appendChild(input);
@@ -74,6 +74,7 @@ async function getInputValue(){
         createCode("clear","To clear the terminal")
         createCode("git","To get the github repository of XShell")
         createCode("xshell","Welcome Note")
+        createCode("google","Directed to google web-browser")
     }
     else if(value === "about"){
         trueValue(value);
@@ -107,6 +108,13 @@ async function getInputValue(){
     else if(value === "clear"){
         document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
         document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
+    }
+    else if(value === "google"){
+        trueValue(value);
+        // createText("GitHub Repository: <a href="www.github.com" target='_blank'>XShell</a>")
+        {
+            window.location.href = "https://www.google.com/";
+        };
     }
     else{
         falseValue(value);
