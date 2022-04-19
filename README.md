@@ -26,7 +26,9 @@ In this repository I have made a terminal in which you can use simple english wo
          2.) Easy to understand
          
          
+# Deployment 
 
 Live: [www.X-Shell.com](https://x-shell.vercel.app/)
+
 
 
