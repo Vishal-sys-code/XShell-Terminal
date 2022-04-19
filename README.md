@@ -27,6 +27,6 @@ In this repository I have made a terminal in which you can use simple english wo
          
          
 
-Link: [X-Shell](https://x-shell.vercel.app/)
+Live: [www.X-Shell.com](https://x-shell.vercel.app/)
 
 
