@@ -11,7 +11,7 @@ In this repository I have made a terminal in which you can use simple english wo
       b.) Open the git-bash in that folder
       c.) Paste this code:
 
-            Using HTTPS :- git clone https://github.com/Vishal-sys-code/XShell-Terminal.git
+            Using HTTPS  git clone https://github.com/Vishal-sys-code/XShell-Terminal.git
 
             Using SSH:- git clone git@github.com:Vishal-sys-code/XShell-Terminal.git
       d.) Now, enjoy!!!
@@ -24,7 +24,9 @@ In this repository I have made a terminal in which you can use simple english wo
       Favorible:- 
          1.) English typed commands
          2.) Easy to understand
+         
+         
 
-
+Link: [X-Shell](https://x-shell.vercel.app/)
 
 
